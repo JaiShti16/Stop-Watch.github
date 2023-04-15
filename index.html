@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="logo.jpg" alt="logo" height="100px">
+        <h1 class="head">Stop-Watch!</h1>
+    </div>
+    <div class="main">
+        <h1 id="timer">00:00:00:00</h1>
+        <img src="pause.jpg" height="100px" class="img" onclick="watchstop()">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="play1.jpg" height="100px" class="img" onclick="watchstart()">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="restart.jpg" height="100px" class="img" onclick="watchreset()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
